@@ -402,7 +402,7 @@ div#slider figure {
 }
 
 .one {
-    background: url("http://ece.sliet.ac.in/files/2012/02/ECE-Department11.jpg") no-repeat center center / cover;
+    background: url("https://user-images.githubusercontent.com/111484416/227682061-bde095ab-19bf-466b-a11a-2965d982078e.jpg") no-repeat center center / cover;
     background-repeat: no-repeat;
     border-radius: 25px;
     width: 200px;
@@ -411,7 +411,7 @@ div#slider figure {
 }
 
 .two {
-    background: url("http://cs.sliet.ac.in/files/2021/04/computer-block-768x516.jpg") no-repeat center center / cover;
+    background: url("https://user-images.githubusercontent.com/111484416/227682079-f4b19258-2c33-429b-a4a0-53e3fc94a8db.jpg") no-repeat center center / cover;
     width: 200px;
     height: 400px;
     flex-grow: 2;
@@ -419,7 +419,7 @@ div#slider figure {
 }
 
 .three {
-    background: url("http://ct.sliet.ac.in/files/2012/02/Chem-Deptt.-Main-Building.jpg") no-repeat center center / cover;
+    background: url("https://user-images.githubusercontent.com/111484416/227682090-a9528130-de07-4501-95a2-00e912e9c146.jpg") no-repeat center center / cover;
     width: 200px;
     height: 400px;
     flex-grow: 2;
