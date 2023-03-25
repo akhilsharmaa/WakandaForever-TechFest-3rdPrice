@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="navbar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="logo">
+                    <img src="assets/logoSlietGreen.png" alt="" class="slietlogo">
+                </div>
+                <div class="slietName">
+                    <h2>Sant Longowal Institute of Engineering and Technology</h2>
+                    <p>(Deemed-to-be-University, Under Ministry of Education, Govt. of India)
+                    </p>
+                </div>
+                <div class="menu-items">
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Institute</a></li>
+                    <li class="sub-menu-parent"><a href="#">Department ⬇️</a>
+                        <ul class="sub-menu">
+                            <li><a href="cse.html">Computer Science</a></li>
+                            <li><a href="electronics.html">Electronics Communication</a></li>
+                            <li><a href="electrical.html">Electrical and Istrumentation</a></li>
+                            <li><a href="chemical.html">Chemical Engineering</a></li>
+                            <li><a href="food.html">Food Engineering</a></li>
+                            <li><a href="science.html">Science Department</a></li>
+                            <li><a href="mech.html">Mechanical Engineering</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-menu-parent"><a href="#">Facilities ⬇️</a>
+                        <ul class="sub-menu">
+                            <li><a href="acss.html">A.C.S.S</a></li>
+                            <li><a href="library.html">Central Library</a></li>
+                            <li><a href="workshop.html">Workshop</a></li>
+                            <li><a href="hostels.html">Hostel</a></li>
+                            <li><a href="healthcenter.html">Health Center</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Admission</a></li>
+                    <li><a href="about.html">About us</a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+
+        <!-- Department Header -->
+        <div id="dept-header">
+            <div class="dept-name">
+                <h1>Deptt. of Science</h1>
+            </div>
+            <div class="dept-nav">
+                <ul>
+                    <li class="dept-contents borderBtn"><a href="#dept-about"> About</a></li>
+                    <li class="dept-contents"><a href="#photo-gallery">Photo Gallery</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Department About -->
+        <div id="dept-about">
+            <div class="about-intro">
+                <h2>About</h2>
+                <div class="underline"></div>
+                <p>The Department offers core courses in Chemistry, Physics & Maths for undergraduate B.E. students of
+                    Engineering and students of
+                    integrated certificate diploma in the Institute. In addition, it offers a two years M.Sc. programme
+                    and a Ph.D programme
+                    in Chemistry..</p>
+            </div>
+            <div class="about-main">
+                <div class="dept-img">
+                    <img src="http://chm.sliet.ac.in/files/2012/02/science-block1.jpg" style="max-width: 50vw" alt="">
+                </div>
+
+            </div>
+        </div>
+
+
+
+
+        <!-- Photo Gallery -->
+        <section id="photo-gallery">
+            <div class="title">
+                <h2>Photo Gallery</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="photo-gallery-item">
+                <img src="http://phy.sliet.ac.in/files/2022/09/IMG-5312-768x576.jpg">
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="row primary">
+            <div class="column about">
+                <h4>SLIET Longowal - 148106, Distt. Sangrur (Pb.), India
+                    Phone : +91-1672-280057</h4>
+                <img height="200px" width="200"
+                    src="https://storage.googleapis.com/ezap-prod/colleges/647/sant-university-logo.png" alt="">
+            </div>
+            <div class="column subscribe">
+                <img height="100px" width="100" src="https://techfestsliet.org/tf23.webp" alt="">
+                <div class="social">
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+                </div>
+            </div>
+            <div class="column links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>
+                        <a href="">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="">SLIET Telephone Directory</a>
+                    </li>
+                    <li>
+                        <a href="">Rules & Regulation</a>
+                    </li>
+                    <li>
+                        <a href="">Anti Ragging</a>
+                    </li>
+                    <li>
+                        <a href="">Acedmic Calender</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row copyright">
+            <p>Copyright &copy; WakandaForever SLIET-TechFest</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var speed = 100;
+        function incEltNbr(id) {
+            elt = document.getElementById(id);
+            endNbr = Number(document.getElementById(id).innerHTML);
+            incNbrRec(0, endNbr, elt);
+        }
+        function incNbrRec(i, endNbr, elt) {
+            if (i <= endNbr) {
+                elt.innerHTML = i;
+                setTimeout(function () {//Delay a bit before calling the function again.
+                    incNbrRec(i + 1, endNbr, elt);
+                }, speed);
+            }
+        }
+        incEltNbr("nbr"); 
+    </script>
+</body>
+
+</html>

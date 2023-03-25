@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,11 +12,59 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&display=swap" rel="stylesheet">
 
-    <link rel="stylesheet" href="styles/facility.css">
-</head> 
-    
-    <body>
-        <div class="container">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Nav-Bar -->
+    <nav>
+        <div class="navbar">
+            <div class="container nav-container">
+                <input class="checkbox" type="checkbox" name="" id="" />
+                <div class="hamburger-lines">
+                    <span class="line line1"></span>
+                    <span class="line line2"></span>
+                    <span class="line line3"></span>
+                </div>
+                <div class="logo">
+                    <img src="assets/logoSlietGreen.png" alt="" class="slietlogo">
+                </div>
+                <div class="slietName">
+                    <h2>Sant Longowal Institute of Engineering and Technology</h2>
+                    <p>(Deemed-to-be-University, Under Ministry of Education, Govt. of India)
+                    </p>
+                </div>
+                <div class="menu-items">
+
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Institute</a></li>
+                    <li class="sub-menu-parent"><a href="#">Department ⬇️</a>
+                        <ul class="sub-menu">
+                            <li><a href="cse.html">Computer Science</a></li>
+                            <li><a href="electronics.html">Electronics Communication</a></li>
+                            <li><a href="electrical.html">Electrical and Istrumentation</a></li>
+                            <li><a href="chemical.html">Chemical Engineering</a></li>
+                            <li><a href="food.html">Food Engineering</a></li>
+                            <li><a href="science.html">Science Department</a></li>
+                            <li><a href="mech.html">Mechanical Engineering</a></li>
+                        </ul>
+                    </li>
+                    <li class="sub-menu-parent"><a href="#">Facilities ⬇️</a>
+                        <ul class="sub-menu">
+                            <li><a href="acss.html">A.C.S.S</a></li>
+                            <li><a href="library.html">Central Library</a></li>
+                            <li><a href="workshop.html">Workshop</a></li>
+                            <li><a href="hostels.html">Hostel</a></li>
+                            <li><a href="healthcenter.html">Health Center</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Admission</a></li>
+                    <li><a href="about.html">About us</a></li>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
 
         <!-- Department Header -->
         <div id="dept-header">
@@ -26,32 +75,34 @@
                 <ul>
                     <li class="dept-contents borderBtn"><a href="#dept-about"> About</a></li>
                     <li class="dept-contents borderBtn"><a href="#faculty">Officers and Staff</a></li>
-                    <li class="dept-contents borderBtn"><a href="#laboratories">INTRANET Systems</a></li>
+                    <li class="dept-contents "><a href="#laboratories">INTRANET Systems</a></li>
                 </ul>
             </div>
         </div>
 
-    
+
         <!-- Department About -->
         <div id="dept-about">
             <div class="about-intro">
-                <h2>About us</h2>   
+                <h2>About us</h2>
                 <div class="underline"></div>
 
-                <p> A campus local area network (LAN)  cater to the needs of students, faculty and staffs, and  
+                <p> A campus local area network (LAN) cater to the needs of students, faculty and staffs, and
                     created by connecting the all Academic blocks and Hostels with fiber optics (Single and Multimode)
-                    as a backbone and by installing Core, Distribution, Access switches of managed layer 2/3 switches. 
-                    At present the backbone is 1G. The campus is also Wi-Fi enable. High speed Internet is provided all 
-                    Academics and Hostels through multiple Internet service Provider leased line.  Unified threat management 
+                    as a backbone and by installing Core, Distribution, Access switches of managed layer 2/3 switches.
+                    At present the backbone is 1G. The campus is also Wi-Fi enable. High speed Internet is provided all
+                    Academics and Hostels through multiple Internet service Provider leased line. Unified threat
+                    management
                     (UTM) is used for security and user authentication.
                 </p>
                 <br>
-                <p>ACSS manage Internet services, electronic mail, FTP and INFED Server, Institute website development and maintenance. </p>
+                <p>ACSS manage Internet services, electronic mail, FTP and INFED Server, Institute website development
+                    and maintenance. </p>
 
             </div>
             <div class="about-main">
                 <div class="dept-img">
-                    <img src="http://cs.sliet.ac.in/files/2021/04/computer-block-768x516.jpg" alt="">   
+                    <img src="http://cs.sliet.ac.in/files/2021/04/computer-block-768x516.jpg" alt="">
                 </div>
                 <div class="dept-intro">
                     <div class="intro1">
@@ -60,68 +111,113 @@
                     </div>
                     <div class="intro2">
 
-                            <ul>
-                                <li>Provide LAN connectivity to the faculty, staff and students</li>
-                                <li>Provide the Internet facility to the users</li>
-                                <li>Provide technical assistance to the Institute people </li>
-                            </ul>
-                            
-                            
-                           
+                        <ul>
+                            <li>Provide LAN connectivity to the faculty, staff and students</li>
+                            <li>Provide the Internet facility to the users</li>
+                            <li>Provide technical assistance to the Institute people </li>
+                        </ul>
+
+
+
                     </div>
                 </div>
             </div>
         </div>
 
-    
-    
-    <div class="container">
-        <div class="circle">
-            
+
+
+        <div class="container">
+            <div class="circle">
+
+            </div>
         </div>
-    </div>
 
-    
+
         <!-- Faculty & Staffs -->
-            <section id="faculty">
-                <div class="title">
-                    <h2>Officers and Staff</h2>
-                    <div class="underline"></div>
-                </div>
-                <div class="section-center">
-                    <article class="menu-item">
-                        <img src="http://sliet.ac.in/wp-content/uploads/avatars/3/795bb58f0c46fbc3132006e2ac5082f1-bpfull.jpg"
-                            alt="menu item" class="photo" />
-                        <div class="item-info">
-                            <header>
-                                <h4>Dr. Sanjeev Prakash</h4>
-                            </header>
-                            <p class="item-text">
-                                Ph.D.(CSE), M.Tech.(CSE), M.Sc.(Physics).<br>
-                                Phone (O):+91-1672-253619<br>
-                                e-mail:sanjeev_gaur@sliet.ac.in, sanjeev_gaur@yahoo.com
-                            </p>
-                        </div>
-                    </article>
-                    <article class="menu-item">
-                        <img src="http://sliet.ac.in/wp-content/uploads/avatars/4/62ebab9f2882b-bpfull.jpg" alt="menu item"
-                            class="photo" />
-                        <div class="item-info">
-                            <header>
-                                <h4>Dr. Damanpreet Singh</h4>
-                            </header>
-                            <p class="item-text">
-                                Educational Qualification:Ph.D., M.Tech, B.Tech.,<br>
-                                Phone (O):+91-1672-253210<br>
-                                e-mail:damanpreets@sliet.ac.in<br>
-                            </p>
-                        </div>
-                    </article>
-
-        
-        
-    
-
+        <section id="faculty">
+            <div class="title">
+                <h2>Officers and Staff</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="section-center">
+                <article class="menu-item">
+                    <img src="http://sliet.ac.in/wp-content/uploads/avatars/3/795bb58f0c46fbc3132006e2ac5082f1-bpfull.jpg"
+                        alt="menu item" class="photo" />
+                    <div class="item-info">
+                        <header>
+                            <h4>Dr. Sanjeev Prakash</h4>
+                        </header>
+                        <p class="item-text">
+                            Ph.D.(CSE), M.Tech.(CSE), M.Sc.(Physics).<br>
+                            Phone (O):+91-1672-253619<br>
+                            e-mail:sanjeev_gaur@sliet.ac.in, sanjeev_gaur@yahoo.com
+                        </p>
+                    </div>
+                </article>
+                <article class="menu-item">
+                    <img src="http://sliet.ac.in/wp-content/uploads/avatars/4/62ebab9f2882b-bpfull.jpg" alt="menu item"
+                        class="photo" />
+                    <div class="item-info">
+                        <header>
+                            <h4>Dr. Damanpreet Singh</h4>
+                        </header>
+                        <p class="item-text">
+                            Educational Qualification:Ph.D., M.Tech, B.Tech.,<br>
+                            Phone (O):+91-1672-253210<br>
+                            e-mail:damanpreets@sliet.ac.in<br>
+                        </p>
+                    </div>
+                </article>
+            </div>
+        </section>
     </div>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="row primary">
+            <div class="column about">
+                <h4>SLIET Longowal - 148106, Distt. Sangrur (Pb.), India
+                    Phone : +91-1672-280057</h4>
+                <img height="200px" width="200"
+                    src="https://storage.googleapis.com/ezap-prod/colleges/647/sant-university-logo.png" alt="">
+            </div>
+            <div class="column subscribe">
+                <img height="100px" width="100" src="https://techfestsliet.org/tf23.webp" alt="">
+                <div class="social">
+                    <i class="fa-brands fa-facebook-square"></i>
+                    <i class="fa-brands fa-instagram-square"></i>
+                    <i class="fa-brands fa-twitter-square"></i>
+                </div>
+            </div>
+            <div class="column links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li>
+                        <a href="">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="">SLIET Telephone Directory</a>
+                    </li>
+                    <li>
+                        <a href="">Rules & Regulation</a>
+                    </li>
+                    <li>
+                        <a href="">Anti Ragging</a>
+                    </li>
+                    <li>
+                        <a href="">Acedmic Calender</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="row copyright">
+            <p>Copyright &copy; WakandaForever SLIET-TechFest</p>
+        </div>
+    </footer>
+
+
 </body>
+
 </html>

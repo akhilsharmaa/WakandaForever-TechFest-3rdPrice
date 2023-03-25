@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Team Section </title>
+  <style media="screen">
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --white-color: #ffffff;
+      --grey-color: #808080;
+      --shade-brown: #c38e3c;
+      --sangria-color: #92000a;
+      --black-color: #000000;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+    }
+
+    .main {
+      width: 100%;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .profile-card {
+      position: relative;
+      font-family: sans-serif;
+      width: 220px;
+      height: 220px;
+      background: #fff;
+      padding: 30px;
+      border-radius: 50%;
+      box-shadow: 0 0 22px var(--black-color);
+      transition: .6s;
+      margin: 0 25px;
+    }
+
+    .profile-card:hover {
+      border-radius: 10px;
+      height: 260px;
+    }
+
+    .profile-card .img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: .6s;
+      z-index: 99;
+    }
+
+    .profile-card:hover .img {
+      transform: translateY(-60px);
+    }
+
+    .img img {
+      width: 100%;
+      border-radius: 50%;
+      box-shadow: 0 0 22px var(--black-color);
+      transition: .6s;
+    }
+
+    .profile-card:hover img {
+      border-radius: 10px;
+    }
+
+    .caption {
+      text-align: center;
+      transform: translateY(-80px);
+      opacity: 0;
+      transition: .6s;
+    }
+
+    .profile-card:hover .caption {
+      opacity: 1;
+    }
+
+    .caption h3 {
+      font-size: 21px;
+    }
+
+
+    .caption .social-links a {
+      color: var(--black-color);
+      margin-right: 15px;
+      font-size: 21px;
+      transition: .6s;
+    }
+
+    .header {
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      height: 15vh;
+      font-size: larger;
+      font-weight: 700;
+      transform: translatey(0px);
+      animation: float 2s ease-in-out infinite;
+    }
+
+    @keyframes float {
+      0% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.0);
+        transform: translatey(0px);
+      }
+
+      50% {
+        box-shadow: 0 25px 15px 0px rgba(0, 0, 0, 0.0);
+        transform: translatey(-20px);
+      }
+
+      100% {
+        box-shadow: 0 5px 15px 0px rgba(0, 0, 0, 0.0);
+        transform: translatey(0px);
+      }
+    }
+
+    .underline {
+      width: 5rem;
+      height: 0.25rem;
+      background: var(--sangria-color);
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="header">
+    <h2 class="header-title">WakandaForever</h2>
+  </div>
+  <div class="underline"></div>
+  <div class="main">
+    <div class="profile-card">
+      <div class="img">
+        <img
+          src="https://media.licdn.com/dms/image/C4E03AQGf8xUnjJegfQ/profile-displayphoto-shrink_400_400/0/1632641536888?e=1684972800&v=beta&t=b16cwaWtdL0qWhTk4IClyptyLQVzucwhN4IAl1EkCOk">
+      </div>
+      <div class="caption">
+        <h3>Divyansh Raj</h3>
+        <p>CTV/2010351</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/divyansh-raj/"><img src="assets/linkedin.png" alt=""></a>
+          <a href="https://divyanshraj.onrender.com/"><img src="assets/undraw_code.svg" alt=""
+              style="height: 25px;"></a>
+        </div>
+      </div>
+    </div>
+    <div class="profile-card">
+      <div class="img">
+        <img
+          src="https://media.licdn.com/dms/image/D4D03AQFDd9rK7fAL5Q/profile-displayphoto-shrink_400_400/0/1679687794227?e=1684972800&v=beta&t=OYajh63qhxma8dS4Tv4DYw34Jk5t-5PZJdTvmaX-DoE">
+      </div>
+      <div class="caption">
+        <h3>Sahil Kumar</h3>
+        <p>CDE/2010233</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/sahilkr012004/"><img src="assets/linkedin.png" alt=""></a>
+          <a href="https://github.com/sahilkr012004"><img src="assets/undraw_code.svg" alt="" style="height: 25px;"></a>
+        </div>
+      </div>
+    </div>
+    <div class="profile-card">
+      <div class="img">
+        <img
+          src="https://media.licdn.com/dms/image/D4D03AQG-galTSAxpYQ/profile-displayphoto-shrink_400_400/0/1676643053378?e=1684972800&v=beta&t=IQ8abg3RdRwj6bef5Kt4mo_7i0wMdrFBZXNtMAbTrCk">
+      </div>
+      <div class="caption">
+        <h3>Akhilesh Kumar Sharma</h3>
+        <p>CDE/2010251</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/theakhilesh/"><img src="assets/linkedin.png" alt=""></a>
+          <a href="https://akhilsharmaa.github.io/profile/"><img src="assets/undraw_code.svg" alt=""
+              style="height: 25px;"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
